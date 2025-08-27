@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table with Merged Cells</title>
+</head>
+<body>
+  <h2>Table with Merged Cells – Comparison chart using rowspan and colspan</h2>
+
+  <table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+      <th rowspan="2">Category</th>
+      <th rowspan="2">Feature</th>
+      <th colspan="3">Product</th> <!-- colspan merges 3 columns -->
+    </tr>
+    <tr>
+      <th>Alpha</th>
+      <th>Beta</th>
+      <th>Gamma</th>
+    </tr>
+
+    <tr>
+      <td rowspan="3">Core</td> <!-- rowspan merges 3 rows -->
+      <td>Price</td>
+      <td>$29</td>
+      <td>$39</td>
+      <td>$49</td>
+    </tr>
+    <tr>
+      <td>Storage</td>
+      <td>10 GB</td>
+      <td>50 GB</td>
+      <td>100 GB</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>1</td>
+      <td>5</td>
+      <td>Unlimited</td>
+    </tr>
+
+    <tr>
+      <td rowspan="3">Support</td>
+      <td>Email</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td>Live Chat</td>
+      <td>—</td>
+      <td>✔️</td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>—</td>
+      <td>—</td>
+      <td>✔️</td>
+    </tr>
+
+    <tr>
+      <td colspan="5">* All plans include free updates for 12 months.</td> <!-- colspan merges entire row -->
+    </tr>
+  </table>
+</body>
+</html>
