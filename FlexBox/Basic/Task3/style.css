@@ -1,0 +1,23 @@
+.parent{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.child{
+  height: 200px;
+  width: 200px;
+}
+
+.child-1{
+  background-color: red;
+}
+
+.child-2{
+  background-color: blue;
+}
+
+.child-3{
+  background-color: green;
+}

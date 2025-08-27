@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.container{
+  width: 80%;
+  margin: 0px auto;
+}
+
+/* Navbar */
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.nav-bar a:hover{
+  color: blue;
+}
+
+/* Footer */
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
