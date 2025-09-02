@@ -1,0 +1,143 @@
+.clients-intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.clients-intro h2{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.clients-intro p{
+  font-size: 16px;
+  color: #426666;
+}
+
+.happy-clients{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px;
+  gap: 80px;
+}
+
+.person-cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.person{
+  position: relative;
+}
+
+.person img{
+  height: 240px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.person-stats{
+  position: absolute;
+  bottom: -70px;
+  left: 30px;
+  background-color: white;
+  width: 240px;
+  padding: 20px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+.person-stats h4{
+  font-size: 16px;
+}
+.stats{
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.stat-num{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.stat-num h3{
+  font-size: 24px;
+  font-weight: 500;
+}
+.stat-num p{
+  font-size: 10px;
+  color: #ADADBA;
+}
+
+.person-stats .learn-more a{
+  font-size: 15px;
+  color: #B33CDB;
+}
+
+.star-clients{
+  padding: 50px 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.client-feedback{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.star{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.quote-clients .quote{
+  height: 105px;
+  width: 168px;
+}
+
+.client-feedback h3{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.client-feedback p{
+  font-size: 16px;
+  color: #426666;
+}
+
+
+
+
+@media only screen and (max-width:1000px){
+  .person-cards{
+    flex-direction: column;
+    gap: 100px;
+  }
+  .person img{
+  height: 300px;
+  width: 360px;
+  }
+  .person-stats{
+    bottom: -50px;
+    left: 50px;
+    width: 260px;
+    gap: 20px;
+  }
+}

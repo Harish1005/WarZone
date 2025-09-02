@@ -1,0 +1,101 @@
+.services-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.service-2{
+  flex-direction: row-reverse;
+}
+
+.service-info{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  padding: 15px;
+}
+
+.service-name{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.service-info h2{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.service-detail{
+  font-size: 16px;
+  color: #426666;
+}
+
+.service-image img{
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+
+.influencer{
+  color: #B33CDB;
+}
+.community{
+  color: #FBBA33;
+}
+.managed{
+  color: #DE2879;
+}
+
+.service-info > a{
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+.service-info .learn-more-purple{
+  background-color: rgb(179, 60, 219);
+  transition: all ease-out 0.3s;
+}
+.service-info .learn-more-yellow{
+  background-color: rgb(251, 186, 51);
+  transition: all ease-out 0.3s;
+}
+.service-info .learn-more-pink{
+  background-color: rgb(222, 40, 121);
+  transition: all ease-out 0.3s;
+}
+
+.service-info .learn-more-purple:hover{
+  box-shadow: 0px 2px 10px rgba(179, 60, 219, 0.7);
+}
+.service-info .learn-more-yellow:hover{
+  box-shadow: 0px 2px 10px rgba(251, 186, 51, 0.7);
+}
+.service-info .learn-more-pink:hover{
+  box-shadow: 0px 2px 10px rgba(222, 40, 121, 0.7);
+}
+
+.arrow{
+  margin-left: 10px;
+  border: 2px solid;
+  padding: 0 2px;
+  border-radius: 100%;
+}
+
+
+
+@media only screen and (max-width:700px){
+  .services{
+    flex-direction: column-reverse;
+  }
+}

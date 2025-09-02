@@ -1,0 +1,97 @@
+
+.header-bg{
+  background: url("/Images/General/bg.png") no-repeat center;
+  background-size: cover;
+}
+
+
+/* wrapper for logo + nav + button */
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 15px;
+  color: white;
+
+}
+
+.header-wrapper > img{
+  padding: 10px 5px;
+}
+
+.header-wrapper nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+
+.header-wrapper nav a{
+  color: white;
+  transition: all ease-out 0.2s;
+}
+
+.header-wrapper nav a:hover{
+  color: black;
+}
+
+.header-wrapper .btn {
+  background-color: rgba(225, 225, 225, 0.3);
+  color: white;
+  padding: 15px 35px;
+  border-radius: 25px;
+  transition: all ease 0.3s;
+}
+.header-wrapper .btn:hover{
+  background-color: rgba(225, 225, 225, 0.4);
+  box-shadow: 0px 2px 10px rgb(255, 255, 255, 0.3);
+}
+
+
+/* intro text */
+.header-intro-wrapper {
+  text-align: center;
+  padding: 100px 15px;
+}
+
+.header-intro-wrapper h1 {
+  font-size: 94px;
+  font-weight: 700;
+  margin-bottom: 37px;
+  color: white;
+}
+
+.header-intro-wrapper p {
+  font-size: 16px;
+  margin-bottom: 77px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media only screen and (max-width: 500px) {
+  .header-wrapper{
+    flex-direction: column;
+    gap: 35px;
+  }
+  .header-wrapper .btn{
+    display: none;
+  }
+  .header-intro-wrapper h1{
+    font-size: 62px;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width:800px){
+  .header-wrapper{
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 35px;
+  }
+  .header-wrapper .btn{
+    display: none;
+  }
+  .header-intro-wrapper h1{
+    font-size: 80px;
+  }
+}

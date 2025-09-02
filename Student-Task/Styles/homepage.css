@@ -1,0 +1,67 @@
+.global-client{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 66px;
+}
+.global-client > p{
+  font-size: 16px;
+  color: #B2B7BE;
+  font-weight: bold;
+}
+
+.clients-brand-logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 57px;
+  
+}
+
+.clients-brand-logo img:hover{
+  transform: scale(1.1);
+}
+
+.clients-brand-logo img{
+  width: 137px;
+  height: 25px;
+  object-fit: contain;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.homepage-container{
+  padding: 85px 15px;
+}
+
+.solution-intro{
+  padding-top: 65px;
+  padding-bottom: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.solution-intro h2{
+  font-weight: 600;
+  color: #231A36;
+}
+
+.solution-intro p{
+  color: #426666;
+  font-size: 16px;
+}
+
+
+@media only screen and (max-width: 850px){
+  .clients-brand-logo{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .line-break{
+    display: block;
+  }
+}
